@@ -17,9 +17,9 @@ public class Controller {
 	{
 		return w.find(id);
 	}
-	/*@GetMapping("/findall")
+	@GetMapping("/findall")
 	public List<Emp> findall()
 	{
 		return w.findall();
-	}*/
+	}
 }
